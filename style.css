@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif; /* ou 'Nunito' */
+}
+
+.card {
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #d65448;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #D65448;
+    background: linear-gradient(206deg, rgba(214, 84, 72, 1) 0%, rgba(255, 158, 128, 1) 50%, rgba(255, 205, 178, 1) 100%);
+}
+
+.conteudoCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+}
+
+#imagemCard {
+    width: 20rem;
+}
+
+.card h1 {
+    margin-top: 18%;
+    color: white;
+    font-weight: bolder;
+}
+
+#botaoCard {
+    padding: 12px 28px;
+    width: 60%;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 20rem;
+    border: 2px solid #FF723F;
+    background-color: #D65448;
+    font-weight: bold;
+}
